@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: '0 11,20 * * 1-5'
 jobs:
-  check_bna_for_content:
+  check_on_schedule:
     # timeout-minutes: 360
     runs-on: ubuntu-latest
     container:
